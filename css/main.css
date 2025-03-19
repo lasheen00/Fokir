@@ -1,0 +1,615 @@
+body
+{
+    margin: 0;
+
+}
+body h2
+{
+    font-family: "Source Code Pro", monospace;
+}
+
+
+.header
+{
+    width: 100%;
+    height: 700px;
+    background-image: url(../photos/hero\ img.jpg);
+    background-size: cover;
+}
+.header .hello
+{
+    width: 600px;
+    height: 200px;
+    text-align: center;
+    position: absolute;
+    top: 45%;
+    left: 30%;
+    color: white;
+    font-size: 20px;
+    font-family: "Source Code Pro", monospace;
+    
+}
+.header .layer
+{
+    width: 100%;
+    height: 700px;
+    background-color: rgba(0, 0, 0, .5);
+}
+.header .hello h2
+{
+    font-size: 50px;
+    color: rgb(255, 48, 91);
+    margin: 10px 10px  ;
+}
+
+
+
+
+
+
+
+
+
+
+
+.ihello
+{
+    width: 100%;
+    height: 600px;
+    display: inline-block;
+}
+.ihello .box
+{
+    width: 70%;
+    height: 80%;
+    margin: 60px 15%;
+}
+.ihello .box .img
+{
+    width: 48%;
+    position: relative;
+    float: left;
+    
+}
+.ihello .box .text
+{
+    width: 52%;
+    float: left;
+    position: relative;
+    
+   
+}
+.ihello .box .img .border
+{
+    width: 330px;
+    height: 425px;
+    background-color: transparent;
+    border: 5px solid #555;
+    
+}
+.ihello .box .img .photo 
+{
+    width: 360px;
+    height: 440px;
+    border-radius: 5px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    
+    
+}
+.ihello .box .text h2
+{
+    font-size: 40px;
+    margin: 0 10px;
+    
+}
+.ihello .box .text h2::before
+{
+    content: '';
+    width: 5px;
+    height: 28px;
+    background-color: rgb(255, 48, 91);
+    position: absolute;
+    top: 13px;
+    left: 0;
+    
+}
+.ihello .box .text p
+{
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+}
+.ihello .box .text h2::after
+{
+    content: '';
+    width: 100;
+    height: 5px;
+    color: blue;
+    position: absolute;
+    top: 800px;
+}
+.ihello .box .img .photo .icon
+{
+    text-align: center;
+    width:360px ;
+    height:440px ;
+    color: #fff;
+    background-color: rgb(0, 0, 0,.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translatey(100%);
+    transition: transform 1.5s;
+    
+}
+
+.ihello .box .img .photo:hover .icon
+{
+    transform: translatey(0);
+}
+
+.ihello .box .img .photo
+{
+    width: 360px;
+    background-color: tomato;
+    overflow: hidden;
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.services
+{
+    width: 100%;
+    height: 600px;
+    background-color: #f1f1f1;
+    display: inline-block;
+}
+.services .tittle
+{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    
+}
+.services .tittle .line
+{
+    width: 200px;
+    height: 1.5px;
+    background-color: rgb(255, 48, 91);
+    position: absolute;
+    left: 650px;
+}
+.line::before
+{
+    content: '';
+    width: 100px;
+    height: 1px;
+    background-color: rgb(255, 48, 91);;
+    position: absolute;
+    bottom: 5px;
+    left:50px;
+}
+.line::after
+{
+   content: '';
+    width: 100px;
+    height: 1px;
+    background-color: rgb(255, 48, 91);;
+    position: absolute;
+    top: 5px;
+    left:50px;
+}
+.services .tittle h2
+{
+    font-size: 40px;
+    
+}
+.services .iteam .box 
+{
+    width: 70%;
+    margin: 100px 15% 100px 15%;
+}
+.services .iteam .box .contain
+{
+    width: 25%;
+    float: left;
+    text-align: center;
+    padding: 30px 0;
+    transition: background-color 0.5s ;
+    
+}
+.services .iteam .box .contain .zoom
+{
+    transition: transform 1s;
+}
+.services .iteam .contain:hover
+{
+    background-color: #fff;
+}
+.services .iteam .contain:hover .zoom
+{
+    transform: scale(2);
+}
+.services .iteam .box .contain h2
+{
+    font-size: 17px;
+}
+.services .iteam .box .contain p
+{
+    margin: 0 5px 0 5px;
+}
+.clear-fix
+{
+    clear: both;
+}
+
+
+
+
+
+
+
+
+
+
+.portfolio
+{
+    width: 100%;
+    height: 1200px;
+background-color: #fff;    
+    
+}
+.portfolio .title
+{
+    width: 100%;
+    height: 250px;
+    text-align: center;
+    
+    
+}
+.portfolio .title h2
+{
+    font-size: 40px;
+    padding: 50px 0 0 0 ;
+    
+    
+}
+.portfolio .title .line
+{
+    width: 200px;
+    height: 1.5px;
+    background-color: rgb(255, 48, 91);
+    position: absolute;
+    left: 650px;
+}
+.portfolio .title .span
+{
+    padding: 50px;
+}
+.portfolio .title .span span
+{
+    padding: 30px;
+}
+.portfolio .box
+{
+    width: 90%;
+    height: 800px;
+    margin: auto;
+}
+.portfolio .box .pic
+{
+    width: 30%;
+    float: left;
+    padding: 20px;
+    position: relative;
+    
+}
+.portfolio .box .pic img
+{
+    width:100% ;
+    height: 400px;
+   
+}
+.portfolio .box .pic .layer
+{
+    width: 91%;
+    height: 400px;
+    margin: 20px;
+    background-color: rgba(0,0,0,.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity:0;
+    transition:  1s;
+    
+}
+.portfolio .box .pic:hover .layer
+{
+    opacity:1;
+}
+
+
+
+
+
+
+
+
+.team-memders
+{
+    width: 100%;
+    height: 300px;
+    display: inline-block;
+    font-size: 20px;
+    background-color: #f1f1f1;
+}
+.team-memders .box
+{
+    width: 80%;
+    height: 200px;
+    margin: 50px 10%;
+}
+.team-memders .box .item
+{
+    width: 20%;
+    height: 100px;
+    text-align: center;
+    float: left;
+    margin:30px ;
+}
+
+
+
+
+
+
+
+
+
+
+.feedback
+{
+    width:100%;
+    height: 700px;
+}
+.feedback .title
+{
+    width: 100%;
+    height: 250px;
+    text-align: center;
+    
+    
+}
+.feedback .title h2
+{
+    font-size: 40px;
+    padding: 50px 0 0 0 ;
+    
+    
+}
+.feedback .title .line
+{
+    width: 200px;
+    height: 1.5px;
+    background-color: rgb(255, 48, 91);
+    position: absolute;
+    left: 650px;
+}
+.feedback .box
+{
+    width: 50%;
+    height: 400px;
+    background-color: #f1f1f1;
+    margin: auto;
+}
+.feedback .box .pic
+{
+    width: 30%;
+    height: 400px;
+    position: relative;
+    float: left;
+}
+.feedback .box .pic img
+{
+    border-radius: 50%;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+}
+.feedback .box .text
+{
+    
+    width: 100%;
+    height: 400px;
+    padding: 50px 0 0 0;
+    
+}
+
+
+
+
+
+
+
+
+.blog
+{
+    width: 100%;
+    height: 1000px;
+    background-color: #f1f1f1;
+}
+.blog .title
+{
+    width: 100%;
+    height: 250px;
+    text-align: center;
+    
+    
+}
+.blog .title h2
+{
+    font-size: 40px;
+    padding: 50px 0 0 0 ;
+    
+}
+.blog .title .line
+{
+    width: 200px;
+    height: 1.5px;
+    background-color: rgb(255, 48, 91);
+    position: absolute;
+    left: 650px;
+}
+.blog .box
+{
+    width: 90%;
+    height: 500px;
+    margin: auto;
+
+}
+.blog .box .item
+{
+    width: 30%;
+    height: 650px;
+    float: left;
+    font-size: 20px;
+    margin: 22px;
+    background-color: #fff;
+}
+.blog .box .item img
+{
+    width: 100%;
+    height: 337px;
+}
+
+
+
+
+
+
+
+
+
+.contact
+{
+    width: 100%;
+    height: 1000px;
+    background-color:#fff;
+}
+.contact .title
+{
+    width: 100%;
+    height: 250px;
+    text-align: center;
+    
+    
+}
+.contact .title h2
+{
+    font-size: 40px;
+    padding: 50px 0 0 0 ;
+    
+    
+}
+.contact .title .line
+{
+    width: 200px;
+    height: 1.5px;
+    background-color: rgb(255, 48, 91);
+    position: absolute;
+    left: 650px;
+}
+.contact .form
+{
+    width: 50%;
+    height:600px;
+    margin:auto;
+}
+.contact .form .name
+{
+    float: left;
+    width: 45%;
+}
+.contact .form .email
+{
+   float: right;
+   width: 45%;
+}
+.contact .form input
+{
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    border: #913A38 solid;
+}
+.contact .form textarea
+{
+    border-radius: 10px;
+    border: #913A38 solid;
+}
+.contact .form button
+{
+    background-color:rgb(255, 48, 91) ;
+    width: 200px;
+    height: 50px;
+    border:  #000 solid 2px;
+    border-radius: 10px;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+.end
+{
+    width: 100%;
+    height: 300px;
+    background-color: #333;
+    display: inline-block;
+}
+.end .icon
+{
+    width: 50%;
+    height: 100px;
+    margin: 100px 25% ;
+    text-align: center;
+}
+.end .icon span
+{
+    padding: 50px;
+}
+.end .icon .text
+{
+    color: #fff;
+    font-size: 30px;
+}
+.end .icon .txt
+{
+    color: rgb(255, 48, 91);
+    padding: 0;
+}
